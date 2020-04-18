@@ -18,6 +18,6 @@ int main()
 
     while (true) {
         led = !led;
-        thread_sleep_for(BLINKING_RATE_MS);
+        ThisThread::sleep_for(BLINKING_RATE_MS);
     }
 }
